@@ -1,19 +1,18 @@
 # 3mtt-Capstone-Project
-Customer segmentation for Alheri Supermarket using RFM and K-Means
-# 🛍️ Retail Customer Segmentation – Alheri Supermarket
+# Retail Customer Segmentation – Alheri Supermarket
 
-## 📌 Project Overview
+## Project Overview
 
 This project segments customers of **Alheri Supermarket** (Nigerian retail context) using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering. The goal is to enable targeted marketing, improve customer retention, and optimise resource allocation for the retail business.
 
-## 🎯 Business Problem
+## Business Problem
 
 Nigerian retailers often treat all customers uniformly, missing opportunities for:
 - **Personalised marketing** campaigns
 - **Customer retention** and loyalty building
 - **Resource optimisation** by focusing on high-value segments
 
-## 🛠️ Solution
+## Solution
 
 The solution uses:
 - **RFM Analysis**: Quantifies customer value based on Recency, Frequency, and Monetary metrics
@@ -22,7 +21,7 @@ The solution uses:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Attribute | Value |
 |-----------|-------|
@@ -46,7 +45,7 @@ The data includes transactions across 7 categories:
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### Step 1: Data Generation & Cleaning
 - Generated realistic transaction data based on Nigerian market prices
@@ -80,7 +79,7 @@ Calculated for each customer:
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 ### Model Evaluation Metrics
 | Metric | Value |
@@ -96,10 +95,10 @@ Calculated for each customer:
 
 | Segment | Size | Avg Recency | Avg Frequency | Avg Spend | Top Category | Strategy |
 |---------|------|-------------|---------------|-----------|--------------|----------|
-| 💎 **Loyal** | ~11% | 4 days | 850 purchases | ₦19,081,080 | Foodstuff | VIP loyalty, exclusive access, personal shopping |
-| 📈 **Potential Loyal** | ~27% | 4 days | 375 purchases | ₦8,221,309 | Foodstuff | Upsell/cross-sell, loyalty program invitations |
-| ⚠️ **At Risk** | ~38% | 62 days | 59 purchases | ₦1,191,601 | Foodstuff | Re-engagement campaigns, win-back offers |
-| 🆕 **New & Infrequent** | ~24% | 3 days | 850 purchases | ₦19,081,080 | Foodstuff | Welcome offers, first-purchase discounts, email nurturing |
+|  **Loyal** | ~11% | 4 days | 850 purchases | ₦19,081,080 | Foodstuff | VIP loyalty, exclusive access, personal shopping |
+|  **Potential Loyal** | ~27% | 4 days | 375 purchases | ₦8,221,309 | Foodstuff | Upsell/cross-sell, loyalty program invitations |
+|  **At Risk** | ~38% | 62 days | 59 purchases | ₦1,191,601 | Foodstuff | Re-engagement campaigns, win-back offers |
+|  **New & Infrequent** | ~24% | 3 days | 850 purchases | ₦19,081,080 | Foodstuff | Welcome offers, first-purchase discounts, email nurturing |
 
 ### Category Preferences by Segment
 
@@ -118,7 +117,7 @@ The heatmap analysis reveals:
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 1. **Marketing Budget Allocation**
    - Focus 60% of marketing budget on **Champions** and **Potential Loyal** customers
@@ -151,7 +150,7 @@ The heatmap analysis reveals:
 
 ---
 
-## 🖥️ Visualisation Summary
+## Visualisation Summary
 
 ### EDA Visualisations
 - Revenue by Category: Foodstuff dominates with 95.8% of revenue
