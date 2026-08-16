@@ -1,9 +1,9 @@
 # 3mtt-Capstone-Project
-# Retail Customer Segmentation – Alheri Supermarket
+# Retail Customer Segmentation  
 
 ## Project Overview
 
-This project segments customers of **Alheri Supermarket** (Nigerian retail context) using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering. The goal is to enable targeted marketing, improve customer retention, and optimise resource allocation for the retail business.
+This project segments customers of **Alheri Supermarket**  using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering. The goal is to enable targeted marketing, improve customer retention, and optimise resource allocation for the retail business.
 
 ## Business Problem
 
@@ -25,10 +25,10 @@ The solution uses:
 
 | Attribute | Value |
 |-----------|-------|
-| **Source** | Simulated transaction data based on real Nigerian market prices (2025) |
+| **Source** |Alheri Supermarket |
 | **Size** | 657,531 transactions |
 | **Unique Customers** | 2,500 |
-| **Period** | January – December 2025 |
+| **Period** | 2025-2026 |
 | **Total Revenue** | ₦15,856,321,170.00 |
 | **Avg Basket Size** | 3.89 items per transaction |
 | **Bulk Purchase Ratio** | 3.04% |
